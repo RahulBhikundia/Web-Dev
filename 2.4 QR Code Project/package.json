@@ -1,0 +1,16 @@
+{
+  "name": "qr_code_generator_project",
+  "version": "1.0.0",
+  "description": "It uses inquirer.js to take url as an input from user and Use the qr-image npm package to turn the user entered URL into a QR code image",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rahul Bhikundia",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.11",
+    "qr-image": "^3.2.0"
+  }
+}
